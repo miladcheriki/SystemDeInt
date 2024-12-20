@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvesdoSystemDesign.Api", "AvesdoSystemDesign.Api\AvesdoSystemDesign.Api.csproj", "{CA65F2B3-C6EE-459B-8092-AADEF43419A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvesdoSystemDesign.JobService", "AvesdoSystemDesign.JobService\AvesdoSystemDesign.JobService.csproj", "{4E780C7B-5045-481F-B8EF-D833807D642D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvesdoSystemDesign.Infrastructure", "AvesdoSystemDesign.Infrastructure\AvesdoSystemDesign.Infrastructure.csproj", "{E2C70D7B-F415-470E-B802-5C0C16CA3A10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvesdoSystemDesign.Domain", "AvesdoSystemDesign.Domain\AvesdoSystemDesign.Domain.csproj", "{103634D8-30CD-49EF-8B54-EF8A2799CB27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvesdoSystemDesign.Shared", "AvesdoSystemDesign.Shared\AvesdoSystemDesign.Shared.csproj", "{AD200D40-769D-4ADE-9BF6-9CF9D707B133}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvesdoSystemDesign.ApiGateway", "AvesdoSystemDesign.ApiGateway\AvesdoSystemDesign.ApiGateway.csproj", "{403F8664-DDE4-416C-B0B8-FBEA416692BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvesdoSystemDesign.IdenityManager", "AvesdoSystemDesign.IdenityManager\AvesdoSystemDesign.IdenityManager.csproj", "{BADE659D-BBDF-4CD2-A104-4E0D72B0737D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "OtherMicroservices", "OtherMicroservices", "{DB1085AD-90A0-4258-A276-54B8DF5611F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CA65F2B3-C6EE-459B-8092-AADEF43419A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA65F2B3-C6EE-459B-8092-AADEF43419A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA65F2B3-C6EE-459B-8092-AADEF43419A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA65F2B3-C6EE-459B-8092-AADEF43419A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E780C7B-5045-481F-B8EF-D833807D642D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E780C7B-5045-481F-B8EF-D833807D642D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E780C7B-5045-481F-B8EF-D833807D642D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E780C7B-5045-481F-B8EF-D833807D642D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2C70D7B-F415-470E-B802-5C0C16CA3A10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2C70D7B-F415-470E-B802-5C0C16CA3A10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2C70D7B-F415-470E-B802-5C0C16CA3A10}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2C70D7B-F415-470E-B802-5C0C16CA3A10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{103634D8-30CD-49EF-8B54-EF8A2799CB27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{103634D8-30CD-49EF-8B54-EF8A2799CB27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{103634D8-30CD-49EF-8B54-EF8A2799CB27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{103634D8-30CD-49EF-8B54-EF8A2799CB27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD200D40-769D-4ADE-9BF6-9CF9D707B133}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD200D40-769D-4ADE-9BF6-9CF9D707B133}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD200D40-769D-4ADE-9BF6-9CF9D707B133}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD200D40-769D-4ADE-9BF6-9CF9D707B133}.Release|Any CPU.Build.0 = Release|Any CPU
+		{403F8664-DDE4-416C-B0B8-FBEA416692BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{403F8664-DDE4-416C-B0B8-FBEA416692BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{403F8664-DDE4-416C-B0B8-FBEA416692BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{403F8664-DDE4-416C-B0B8-FBEA416692BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BADE659D-BBDF-4CD2-A104-4E0D72B0737D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BADE659D-BBDF-4CD2-A104-4E0D72B0737D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BADE659D-BBDF-4CD2-A104-4E0D72B0737D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BADE659D-BBDF-4CD2-A104-4E0D72B0737D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{403F8664-DDE4-416C-B0B8-FBEA416692BF} = {DB1085AD-90A0-4258-A276-54B8DF5611F1}
+		{BADE659D-BBDF-4CD2-A104-4E0D72B0737D} = {DB1085AD-90A0-4258-A276-54B8DF5611F1}
+	EndGlobalSection
+EndGlobal

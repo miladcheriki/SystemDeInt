@@ -1,0 +1,10 @@
+# curl -X 'POST' 
+#  'http://localhost:5179/api/Account/token?email=milad%40x.com' 
+#  -H 'accept: */*' 
+#  -d ''
+POST http://localhost:5179/api/Account/token?email=milad%40x.com
+accept: */*
+Content-Type: application/x-www-form-urlencoded
+
+###
+
